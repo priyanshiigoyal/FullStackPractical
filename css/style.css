@@ -10,11 +10,23 @@ body {
 *{
     margin-top: 0%;
 }
+.bar{
+    background-color: grey;
+}
+.open{
+    background-color: black;
+    color: white;
+}
 
 .navbar-brand {
     height: 50px;
     color: black !important;
     font-size: 30px;
+    margin-right: 70px;
+}
+.navbar-brand span{
+    color: white;
+    font-size: 18px;
 }
 
 
@@ -29,8 +41,9 @@ body {
 }
 
 .nav-item {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
 }
 
 .nav-item.active a {
@@ -74,23 +87,27 @@ body {
     background-color: black;
     color: white;
     margin-right: 10px;
-    border: 2px solid  white;
+    border-radius: 2px;
+    border: 0px;
+   
 }
 
 .container #button2 {
     background-color: black;
     color: white;
-    border: 2px solid white;
+    border-radius: 2px;
+    border: 0px;
+    
 }
 
 .container #button2:hover {
     background-color: greenyellow;
     color: white;
-    border: 2px solid black;
+    border: 3px solid white;
 }
 
 .container #button1:hover {
     background-color: greenyellow;
     color: white;
-    border: 2px solid black;
+    border: 3px solid white;
 }
