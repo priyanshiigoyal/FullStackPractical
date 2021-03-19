@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: 0px;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 550px;
+}
+*{
+    margin-top: 0%;
+}
+
+.navbar-brand {
+    height: 50px;
+    color: black !important;
+    font-size: 30px;
+}
+
+
+.nav-item a {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-item.active a {
+    color:white !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container img {
+    width: 25%;
+    height: 25%;
+    border-bottom: 3px solid black;
+}
+
+.container h1 {
+    font-family: 'Berkshire Swash', cursive;
+    margin-top: 25px;
+    color: white;
+}
+
+.container p {
+    font-size: 18px;
+    margin: 20px auto 25px;
+    color: grey;
+}
+
+.container button {
+    height: 75px;
+    width: 250px;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+.container #button1 {
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    border: 2px solid  white;
+}
+
+.container #button2 {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.container #button2:hover {
+    background-color: greenyellow;
+    color: white;
+    border: 2px solid black;
+}
+
+.container #button1:hover {
+    background-color: greenyellow;
+    color: white;
+    border: 2px solid black;
+}
